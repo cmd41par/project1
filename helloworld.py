@@ -10,7 +10,7 @@ import sys
 print("hello world 1")
 print("added pandas")
 
-d = pd.array("")
+d = pd.array([1])
 
 print("Current Directory: " + os.getcwd())
 print("Current UserID: " + getpass.getuser())
