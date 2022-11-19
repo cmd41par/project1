@@ -18,3 +18,8 @@ docker run <image id>
 * git config --global user.name "cd"
 * git config --global user.email "emailaddress"
 * git status # tells the status of your code versus github
+* git log - show a list of commits and status
+* git clone <url> <where> ... ** only for new download
+* git pull 
+* git diff -> show me the changes between local and remote 
+
