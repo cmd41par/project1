@@ -1,17 +1,21 @@
-import pytest
-
 
 import pytest
 import pandas as pd
+import logging
 import os
 import getpass
 import sys
 
-print("hello world 1")
-print("added pandas")
+# removed the file when using docker because the file is in the container and no logs are written
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s') #, filename="helloworld.log")
+
+
+
+logging.info("hello world 1")
+logging.info("added pandas")
 
 d = pd.array([1])
 
-print("Current Directory: " + os.getcwd())
-print("Current UserID: " + getpass.getuser())
-print("Current Python: " + sys.version)
+logging.info("Current Directory: " + os.getcwd())
+logging.info("Current UserID: " + getpass.getuser())
+logging.info("Current Python: " + sys.version)
