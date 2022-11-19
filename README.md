@@ -22,4 +22,7 @@ docker run <image id>
 * git clone <url> <where> ... ** only for new download
 * git pull 
 * git diff -> show me the changes between local and remote 
+* git commit -> commits to local repo
+* git push -> pushes to remote repo
+
 
